@@ -1,0 +1,104 @@
+.eventtitle {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  margin: 80px 0 20px 0px; 
+  text-align: center;
+  color: black; 
+}
+
+.eventmain {
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px 0 40px 0; 
+  margin: 0;
+}
+
+.upcomingevent {
+  text-align: center;
+  margin-top: auto;
+}
+
+.upcomingeventlist1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 50px; /* Increased gap between cards */
+  padding: 20px;
+  width: 80%; 
+  box-sizing: border-box; 
+  justify-content: center;
+  margin-top: 20px; 
+  margin-left: 10%;
+}
+
+.eventcard1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgb(106, 106, 109);
+  padding: 20px;
+  width: 100%; /* Ensure cards fit the container */
+  max-width: 300px; 
+  height: 450px; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.eventcard1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.eventimg1 {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.eventtitle1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #333;
+  flex-grow: 1; 
+}
+
+.eventdate1,
+.eventtime1,
+.eventlocation1,
+.eventprice {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 5px 0;
+}
+
+.eventbt1 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px auto 0 auto;
+  font-size: 0.9rem;
+  display: block; 
+  text-align: center;
+}
+
+.eventbt1:hover {
+  background-color: #0056b3;
+}
+
+.desp1 {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #555;
+  line-height: 1.5;
+  text-align: center;
+  flex-grow: 1; 
+}

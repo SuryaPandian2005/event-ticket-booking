@@ -1,0 +1,29 @@
+.contactmain {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    min-height: 110vh; 
+  }
+  
+  .contact-header {
+    color:black;
+    background-color: rgb(222, 222, 221);
+    background-size: contain;
+    font-weight: bolder;
+    text-align: center; 
+    opacity: 90%;
+    margin-bottom: 160px; 
+  }
+  
+  .form {
+    border: 2px solid black; 
+    padding: 30px; 
+    border-radius: 8px; 
+    background-color: #edcbcb;
+    max-width: 800px; 
+    margin: 20px auto;
+    opacity: 90%;
+    
+  }
+
+  
